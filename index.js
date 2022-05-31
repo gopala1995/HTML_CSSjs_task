@@ -110,21 +110,51 @@
 
 // //   ferquency("free")
 
-var a = [2, 4, 3, 5, 7, 1, 1, 9, 6];
+// var a = [2, 4, 3, 5, 7, 1, 1, 9, 6];
 
-function Short(a) {
-  for (var i = 0; i < a.length; i++) {
-    for (var j = 0; j < a.length - i - 1; j++) {
-      if (a[j] > a[j + 1]) {
-        var temp = a[j];
-        a[j] = a[j + 1];
-        a[j + 1] = temp;
-      }
-    }
-  }
-  console.log(a);
+// function Short(a) {
+//   for (var i = 0; i < a.length; i++) {
+//     for (var j = 0; j < a.length - i - 1; j++) {
+//       if (a[j] > a[j + 1]) {
+//         var temp = a[j];
+//         a[j] = a[j + 1];
+//         a[j + 1] = temp;
+//       }
+//     }
+//   }
+//   console.log(a);
+// }
+
+// Short(a);
+
+////////-----MAx accuring element------/////
+
+let arr = [0, 2,2,2,2, 0, 6, 9]
+
+function maximumOccuringElement(A){
+  var rev = 1;
+var value = 0;
+var Newkey = 0;
+var obj = {};
+for(var i=0;i<A.length;i++){
+//var n = A[i]
+  //console.log(n)
+  if(obj[A[i]]==undefined){
+    obj[A[i]]=1
+    }else{
+     
+       obj[A[i]]++
+  }   
+}
+//console.log(obj)
+for(key in obj){
+   
+if(value < obj[key]){
+  value=obj[key]
+  Newkey=key
+ }
+}   
+console.log(Newkey)
 }
 
-Short(a);
-
-
+maximumOccuringElement(arr)
