@@ -113,7 +113,6 @@
 var a = [2, 4, 3, 5, 7, 1, 1, 9, 6];
 
 function Short(a) {
-  //  var output = ""
   for (var i = 0; i < a.length; i++) {
     for (var j = 0; j < a.length - i - 1; j++) {
       if (a[j] > a[j + 1]) {
