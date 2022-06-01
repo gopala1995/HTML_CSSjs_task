@@ -142,24 +142,43 @@
 //   if(obj[A[i]]==undefined){
 //     obj[A[i]]=1
 //     }else{
-     
+
 //        obj[A[i]]++
-//   }   
+//   }
 // }
 // //console.log(obj)
 // for(key in obj){
-   
+
 // if(value < obj[key]){
 //   value=obj[key]
 //   Newkey=key
 //  }
-// }   
+// }
 // console.log(Newkey)
 // }
 
 // maximumOccuringElement(arr)
 
+// let a = 2, b = 2, $c = 3
+// console.log(a,b,$c)
 
+let str = "hellooleh";
 
-let a = 2, b = 2, $c = 3
-console.log(a,b,$c)
+function CheckPalinderom(str) {
+  let L = 0,
+    R = str.length - 1;
+  while (L < R) {
+    if (str[L] != str[R]) {
+      return false;
+    }
+    L++;
+    R--;
+  }
+  return true;
+}
+let out = CheckPalinderom(str);
+if (out == true) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
