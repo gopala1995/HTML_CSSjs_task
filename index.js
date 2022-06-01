@@ -129,32 +129,37 @@
 
 ////////-----MAx accuring element------/////
 
-let arr = [0, 2,2,2,2, 0, 6, 9]
+// let arr = [0, 2,2,2,2, 0, 6, 9]
 
-function maximumOccuringElement(A){
-  var rev = 1;
-var value = 0;
-var Newkey = 0;
-var obj = {};
-for(var i=0;i<A.length;i++){
-//var n = A[i]
-  //console.log(n)
-  if(obj[A[i]]==undefined){
-    obj[A[i]]=1
-    }else{
+// function maximumOccuringElement(A){
+//   var rev = 1;
+// var value = 0;
+// var Newkey = 0;
+// var obj = {};
+// for(var i=0;i<A.length;i++){
+// //var n = A[i]
+//   //console.log(n)
+//   if(obj[A[i]]==undefined){
+//     obj[A[i]]=1
+//     }else{
      
-       obj[A[i]]++
-  }   
-}
-//console.log(obj)
-for(key in obj){
+//        obj[A[i]]++
+//   }   
+// }
+// //console.log(obj)
+// for(key in obj){
    
-if(value < obj[key]){
-  value=obj[key]
-  Newkey=key
- }
-}   
-console.log(Newkey)
-}
+// if(value < obj[key]){
+//   value=obj[key]
+//   Newkey=key
+//  }
+// }   
+// console.log(Newkey)
+// }
 
-maximumOccuringElement(arr)
+// maximumOccuringElement(arr)
+
+
+
+let a = 2, b = 2, $c = 3
+console.log(a,b,$c)
