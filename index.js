@@ -162,23 +162,40 @@
 // let a = 2, b = 2, $c = 3
 // console.log(a,b,$c)
 
-let str = "hellooleh";
+// let str = "hellooleh";
 
-function CheckPalinderom(str) {
-  let L = 0,
-    R = str.length - 1;
-  while (L < R) {
-    if (str[L] != str[R]) {
-      return false;
+// function CheckPalinderom (str) {
+//  let L = 0, R = str.length-1
+//  while(L<R){
+//    if(str[L]!= str[R]){
+//      return false
+//    }
+//    L++
+//    R--
+//  }
+//  return true
+// };
+// let out = CheckPalinderom(str);
+// if (out == true) {
+//   console.log("Yes");
+// } else {
+//   console.log("No");
+// }
+
+
+
+for (var i = 1; i <= 10; i++) {
+  var output = "";
+  for (var j = 1; j <= 10; j++) {
+    if ( i == 10) {
+      output += "*";
+    } else {
+      if (j == 1 || j == 10) {
+        output += "*";
+      } else {
+        output += " ";
+      }
     }
-    L++;
-    R--;
   }
-  return true;
-}
-let out = CheckPalinderom(str);
-if (out == true) {
-  console.log("Yes");
-} else {
-  console.log("No");
+  console.log(output)
 }
