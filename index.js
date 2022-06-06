@@ -182,12 +182,31 @@
 //   console.log("No");
 // }
 
-
+///////-------U--------////////
 
 for (var i = 1; i <= 10; i++) {
   var output = "";
   for (var j = 1; j <= 10; j++) {
     if ( i == 10) {
+      output += "*";
+    } else {
+      if (j == 1 || j == 10) {
+        output += "*";
+      } else {
+        output += " ";
+      }
+    }
+  }
+  console.log(output)
+}
+
+//////--------o-----////////
+
+
+for (var i = 1; i <= 10; i++) {
+  var output = "";
+  for (var j = 1; j <= 10; j++) {
+    if ( i==1 || i == 10) {
       output += "*";
     } else {
       if (j == 1 || j == 10) {
