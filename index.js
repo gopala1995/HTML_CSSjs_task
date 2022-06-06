@@ -197,7 +197,7 @@ for (var i = 1; i <= 10; i++) {
       }
     }
   }
-  console.log(output)
+  // console.log(output)
 }
 
 //////--------o-----////////
@@ -216,5 +216,16 @@ for (var i = 1; i <= 10; i++) {
       }
     }
   }
-  console.log(output)
+  // console.log(output)
 }
+
+//////---------------------////////////////
+
+
+var arr =  [1,2,3,4,5,6,7,8]
+
+var sum = 0
+for(var i=0;i<4;i++){
+  sum+=arr[i]
+}
+console.log(sum);
