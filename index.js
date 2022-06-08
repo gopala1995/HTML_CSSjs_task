@@ -236,6 +236,15 @@ const ar = ['You', 'are', 'an', 'amazing', 'engineer']
 
 const sortByLength = (ar) =>{
 
-    console.log( ar.sort((a,b)=> a.length - b.length))
+    // console.log( ar.sort((a,b)=> a.length - b.length))
 }
 // sortByLength(ar)
+
+///////////------------------/////////
+
+
+const MakeDouble = (N) =>{
+  console.log(2*N);
+}
+
+MakeDouble(4)
