@@ -244,7 +244,9 @@ const sortByLength = (ar) =>{
 
 
 const MakeDouble = (N) =>{
-  console.log(2*N);
+  // console.log(2*N);
 }
 
 MakeDouble(4)
+
+///////////-------------//////
