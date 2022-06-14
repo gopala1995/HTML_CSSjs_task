@@ -250,3 +250,20 @@ const MakeDouble = (N) =>{
 MakeDouble(4)
 
 ///////////-------------//////
+
+const ReverceName = (nam) => {
+  let newStr = "";
+  for (let i = nam.length - 1; i >= 0; i--) {
+    if (
+      nam[i] != "a" &&
+      nam[i] != "e" &&
+      nam[i] != "i" &&
+      nam[i] != "o" &&
+      nam[i] != "u"
+    ) {
+      newStr += nam[i];
+    }
+  }
+  return newStr;
+}
+console.log(ReverceName("Gopala"));
