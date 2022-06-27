@@ -268,5 +268,5 @@ const ReverceName = (nam) => {
 }
 // console.log(ReverceName("Gopala"));
 
-const set = new Set([0,1,1,2,3,6,4,4,7,7,7,5])
+const set = new Set([0,1,1,2,3,3,9,9,3,6,4,4,7,7,7,5])
 console.log(set);
