@@ -23,18 +23,22 @@
 
 // ////---V V V V V V V I I I I I I -----/////
 
-// function addData(num){
+function addData(num){
 
-//     let N = String(num).split("").map((num)=> Number(num))
-//     let Num = String(num).split("").map((num)=>Number(num))
+    let N = String(num).split("").map((num)=> Number(num))
+    // let Num = String(num).split("").map((num)=>Number(num))
 
-//     let finalData = N.reduce((a,b)=> a+b)
+    let finalData = N.reduce((a,b)=> a+b)
 
-//     if(finalData > 10){
-//         addData(finalData)
-//     }else console.log(finalData)
-// }
-// addData(54321)
+    if(finalData > 10){
+        addData(finalData)
+    }else {
+    // console.log(finalData)
+    }
+  
+}
+
+addData(54321)
 
 // /////-------/////
 
@@ -110,71 +114,71 @@
 
 // //   ferquency("free")
 
-// var a = [2, 4, 3, 5, 7, 1, 1, 9, 6];
+var a = [2, 4, 3, 5, 7, 1, 1, 9, 6];
 
-// function Short(a) {
-//   for (var i = 0; i < a.length; i++) {
-//     for (var j = 0; j < a.length - i - 1; j++) {
-//       if (a[j] > a[j + 1]) {
-//         var temp = a[j];
-//         a[j] = a[j + 1];
-//         a[j + 1] = temp;
-//       }
-//     }
-//   }
+function Short(a) {
+  for (var i = 0; i < a.length; i++) {
+    for (var j = 0; j < a.length - i - 1; j++) {
+      if (a[j] > a[j + 1]) {
+        var temp = a[j];
+        a[j] = a[j + 1];
+        a[j + 1] = temp;
+      }
+    }
+  }
 //   console.log(a);
-// }
+}
 
-// Short(a);
+Short(a);
 
 ////////-----MAx accuring element------/////
 
-// let arr = [0, 2,2,2,2, 0, 6, 9]
+let arrr = [0, 2,2,2,2, 0, 6, 9]
 
-// function maximumOccuringElement(A){
-//   var rev = 1;
-// var value = 0;
-// var Newkey = 0;
-// var obj = {};
-// for(var i=0;i<A.length;i++){
-// //var n = A[i]
-//   //console.log(n)
-//   if(obj[A[i]]==undefined){
-//     obj[A[i]]=1
-//     }else{
+function maximumOccuringElement(A){
+  var rev = 1;
+var value = 0;
+var Newkey = 0;
+var obj = {};
+for(var i=0;i<A.length;i++){
+//var n = A[i]
+  //console.log(n)
+  if(obj[A[i]]==undefined){
+    obj[A[i]]=1
+    }else{
 
-//        obj[A[i]]++
-//   }
-// }
-// //console.log(obj)
-// for(key in obj){
+       obj[A[i]]++
+  }
+}
+//console.log(obj)
+for(key in obj){
 
-// if(value < obj[key]){
-//   value=obj[key]
-//   Newkey=key
-//  }
-// }
+if(value < obj[key]){
+  value=obj[key]
+  Newkey=key
+ }
+}
 // console.log(Newkey)
-// }
+}
 
-// maximumOccuringElement(arr)
+maximumOccuringElement(arrr)
 
 // let a = 2, b = 2, $c = 3
 // console.log(a,b,$c)
 
-// let str = "hellooleh";
+let str = "hellooleh";
 
-// function CheckPalinderom (str) {
-//  let L = 0, R = str.length-1
-//  while(L<R){
-//    if(str[L]!= str[R]){
-//      return false
-//    }
-//    L++
-//    R--
-//  }
-//  return true
-// };
+function CheckPalinderom (str) {
+ let L = 0, R = str.length-1
+ while(L<R){
+   if(str[L]!= str[R]){
+     return false
+   }
+   L++
+   R--
+ }
+ return true
+};
 // let out = CheckPalinderom(str);
 // if (out == true) {
 //   console.log("Yes");
