@@ -269,4 +269,9 @@ const ReverceName = (nam) => {
 // console.log(ReverceName("Gopala"));
 
 const set = new Set([0,1,1,2,3,3,9,9,3,7,5])
-console.log(set);
+// console.log(set);
+
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+
+console.log(months);
