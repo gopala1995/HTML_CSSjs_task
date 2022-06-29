@@ -23,22 +23,22 @@
 
 // ////---V V V V V V V I I I I I I -----/////
 
-function addData(num){
+function addData(num) {
+  let N = String(num)
+    .split("")
+    .map((num) => Number(num));
+  // let Num = String(num).split("").map((num)=>Number(num))
 
-    let N = String(num).split("").map((num)=> Number(num))
-    // let Num = String(num).split("").map((num)=>Number(num))
+  let finalData = N.reduce((a, b) => a + b);
 
-    let finalData = N.reduce((a,b)=> a+b)
-
-    if(finalData > 10){
-        addData(finalData)
-    }else {
+  if (finalData > 10) {
+    addData(finalData);
+  } else {
     // console.log(finalData)
-    }
-  
+  }
 }
 
-addData(54321)
+addData(54321);
 
 // /////-------/////
 
@@ -126,59 +126,58 @@ function Short(a) {
       }
     }
   }
-//   console.log(a);
+  //   console.log(a);
 }
 
 Short(a);
 
 ////////-----MAx accuring element------/////
 
-let arrr = [0, 2,2,2,2, 0, 6, 9]
+let arrr = [0, 2, 2, 2, 2, 0, 6, 9];
 
-function maximumOccuringElement(A){
+function maximumOccuringElement(A) {
   var rev = 1;
-var value = 0;
-var Newkey = 0;
-var obj = {};
-for(var i=0;i<A.length;i++){
-//var n = A[i]
-  //console.log(n)
-  if(obj[A[i]]==undefined){
-    obj[A[i]]=1
-    }else{
-
-       obj[A[i]]++
+  var value = 0;
+  var Newkey = 0;
+  var obj = {};
+  for (var i = 0; i < A.length; i++) {
+    //var n = A[i]
+    //console.log(n)
+    if (obj[A[i]] == undefined) {
+      obj[A[i]] = 1;
+    } else {
+      obj[A[i]]++;
+    }
   }
-}
-//console.log(obj)
-for(key in obj){
-
-if(value < obj[key]){
-  value=obj[key]
-  Newkey=key
- }
-}
-// console.log(Newkey)
+  //console.log(obj)
+  for (key in obj) {
+    if (value < obj[key]) {
+      value = obj[key];
+      Newkey = key;
+    }
+  }
+  // console.log(Newkey)
 }
 
-maximumOccuringElement(arrr)
+maximumOccuringElement(arrr);
 
 // let a = 2, b = 2, $c = 3
 // console.log(a,b,$c)
 
 let str = "hellooleh";
 
-function CheckPalinderom (str) {
- let L = 0, R = str.length-1
- while(L<R){
-   if(str[L]!= str[R]){
-     return false
-   }
-   L++
-   R--
- }
- return true
-};
+function CheckPalinderom(str) {
+  let L = 0,
+    R = str.length - 1;
+  while (L < R) {
+    if (str[L] != str[R]) {
+      return false;
+    }
+    L++;
+    R--;
+  }
+  return true;
+}
 // let out = CheckPalinderom(str);
 // if (out == true) {
 //   console.log("Yes");
@@ -191,7 +190,7 @@ function CheckPalinderom (str) {
 for (var i = 1; i <= 10; i++) {
   var output = "";
   for (var j = 1; j <= 10; j++) {
-    if ( i == 10) {
+    if (i == 10) {
       output += "*";
     } else {
       if (j == 1 || j == 10) {
@@ -206,11 +205,10 @@ for (var i = 1; i <= 10; i++) {
 
 //////--------o-----////////
 
-
 for (var i = 1; i <= 10; i++) {
   var output = "";
   for (var j = 1; j <= 10; j++) {
-    if ( i==1 || i == 10) {
+    if (i == 1 || i == 10) {
       output += "*";
     } else {
       if (j == 1 || j == 10) {
@@ -225,33 +223,30 @@ for (var i = 1; i <= 10; i++) {
 
 //////---------------------////////////////
 
+var arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
-var arr =  [1,2,3,4,5,6,7,8]
-
-var sum = 0
-for(var i=0;i<4;i++){
-  sum+=arr[i]
+var sum = 0;
+for (var i = 0; i < 4; i++) {
+  sum += arr[i];
 }
 // console.log(sum);
 
 //////////---------------////////
 
-const ar = ['You', 'are', 'an', 'amazing', 'engineer']
+const ar = ["You", "are", "an", "amazing", "engineer"];
 
-const sortByLength = (ar) =>{
-
-    // console.log( ar.sort((a,b)=> a.length - b.length))
-}
+const sortByLength = (ar) => {
+  // console.log( ar.sort((a,b)=> a.length - b.length))
+};
 // sortByLength(ar)
 
 ///////////------------------/////////
 
-
-const MakeDouble = (N) =>{
+const MakeDouble = (N) => {
   // console.log(2*N);
-}
+};
 
-MakeDouble(4)
+MakeDouble(4);
 
 ///////////-------------//////
 
@@ -269,18 +264,21 @@ const ReverceName = (nam) => {
     }
   }
   return newStr;
-}
+};
 // console.log(ReverceName("Gopala"));
 
-const set = new Set([0,1,1,2,3,3,9,9,3,7,5])
+const set = new Set([0, 1, 1, 2, 3, 3, 9, 9, 3, 7, 5]);
 // console.log(set);
 
-const months = ['Jan', 'March', 'April', 'June'];
-months.splice(1, 0, 'Feb');
+const months = ["Jan", "March", "April", "June"];
+months.splice(1, 0, "Feb");
 
 // console.log(months);
 
+let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+let citrus = fruits.slice(1, 3);
+// console.log(citrus);
 
-let fruits = ['Banana', 'Orange', 'Lemon', 'Apple', 'Mango']
-let citrus = fruits.slice(1, 3)
-console.log(citrus);
+////////////////---------------/////
+
+
