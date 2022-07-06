@@ -275,7 +275,7 @@ months.splice(1, 0, "Feb");
 
 // console.log(months);
 
-let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+let fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango", "Chhiku"];
 let citrus = fruits.slice(1, 3);
 // console.log(citrus);
 
