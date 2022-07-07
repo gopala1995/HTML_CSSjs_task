@@ -281,10 +281,22 @@ let citrus = fruits.slice(1, 3);
 
 ////////////////---------------/////
 
-const fetchUrl = async () => {
-  let url = `https://fakestoreapi.com/users`;
-  const res = await fetch(url);
-  const data1 = await res.json();
-  console.log(data1);
-};
-fetchUrl();
+// const fetchUrl = async () => {
+//   let url = `https://fakestoreapi.com/users`;
+//   const res = await fetch(url);
+//   const data1 = await res.json();
+//   console.log(data1);
+// };
+// fetchUrl();
+
+
+/////////----------------///////////
+
+
+for(var i=0;i<4;i++){
+  setTimeout(()=>{
+    console.log(i)
+  },000)
+}
+
+
