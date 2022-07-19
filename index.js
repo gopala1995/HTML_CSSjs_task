@@ -293,10 +293,20 @@ let citrus = fruits.slice(1, 3);
 /////////----------------///////////
 
 
-for(var i=0;i<4;i++){
+for(let i=0;i<4;i++){
   setTimeout(()=>{
-    console.log(i)
+    // console.log(i)
   },000)
 }
 
+let rrr = [2,3,4,5,6,7]
 
+const ReverceArray = (arr)=>{
+
+  let str = []
+  for(var i=arr.length-1;i>=0;i--){
+      str.push(arr[i])
+  }
+  console.log(str);
+}
+ReverceArray(rrr)
