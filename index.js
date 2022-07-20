@@ -307,6 +307,10 @@ const ReverceArray = (arr)=>{
   for(var i=arr.length-1;i>=0;i--){
       str.push(arr[i])
   }
-  console.log(str);
+  // console.log(str);
 }
 ReverceArray(rrr)
+
+var message;
+console.log(message);
+message = "The variable Has been hoisted";
