@@ -311,6 +311,47 @@ const ReverceArray = (arr)=>{
 }
 ReverceArray(rrr)
 
-var message;
-console.log(message);
-message = "The variable Has been hoisted";
+
+let N = [1,2,3,4,5]
+
+const Narr = N.reduce((a,b)=> a*b)
+
+// console.log(Narr);
+
+
+
+let inpt = [
+  2,
+  1,
+  1,2,3,4,5,
+  2,
+  1,2,3,4,5
+]
+
+
+
+const findRandom = (N) =>{
+
+  let score = [10,11,12,13,14,15]
+  
+  for(let i=0;i<score.length;i++){
+    console.log(score[i]);
+    if(N == score[i]){
+      return score[i]
+    }else{
+      return ""
+    }
+  }  
+ 
+  
+ 
+
+}
+
+console.log(findRandom())
+
+// function getRandomArbitrary(min, max) {
+//   return Math.floor(Math.random() * (max - min) + min);
+// }
+// console.log(getRandomArbitrary(9,16));
+
