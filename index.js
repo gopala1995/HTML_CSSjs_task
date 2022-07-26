@@ -289,69 +289,49 @@ let citrus = fruits.slice(1, 3);
 // };
 // fetchUrl();
 
-
 /////////----------------///////////
 
-
-for(let i=0;i<4;i++){
-  setTimeout(()=>{
+for (let i = 0; i < 4; i++) {
+  setTimeout(() => {
     // console.log(i)
-  },000)
+  }, 000);
 }
 
-let rrr = [2,3,4,5,6,7]
+let rrr = [2, 3, 4, 5, 6, 7];
 
-const ReverceArray = (arr)=>{
-
-  let str = []
-  for(var i=arr.length-1;i>=0;i--){
-      str.push(arr[i])
+const ReverceArray = (arr) => {
+  let str = [];
+  for (var i = arr.length - 1; i >= 0; i--) {
+    str.push(arr[i]);
   }
   // console.log(str);
-}
-ReverceArray(rrr)
+};
+ReverceArray(rrr);
 
+let N = [1, 2, 3, 4, 5];
 
-let N = [1,2,3,4,5]
-
-const Narr = N.reduce((a,b)=> a*b)
+const Narr = N.reduce((a, b) => a * b);
 
 // console.log(Narr);
 
+let inpt = [2, 1, 1, 2, 3, 4, 5, 2, 1, 2, 3, 4, 5];
 
+const findRandom = (N) => {
+  let score = [10, 11, 12, 13, 14, 15];
 
-let inpt = [
-  2,
-  1,
-  1,2,3,4,5,
-  2,
-  1,2,3,4,5
-]
-
-
-
-const findRandom = (N) =>{
-
-  let score = [10,11,12,13,14,15]
-  
-  for(let i=0;i<score.length;i++){
+  for (let i = 0; i < score.length; i++) {
     console.log(score[i]);
-    if(N == score[i]){
-      return score[i]
-    }else{
-      return ""
+    if (N == score[i]) {
+      return score[i];
+    } else {
+      return "";
     }
-  }  
- 
-  
- 
+  }
+};
 
-}
-
-console.log(findRandom())
+console.log(findRandom());
 
 function getRandomArbitrary(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
-console.log(getRandomArbitrary(9,16));
-
+console.log(getRandomArbitrary(9, 16));
