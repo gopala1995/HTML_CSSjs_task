@@ -350,8 +350,8 @@ const findRandom = (N) =>{
 
 console.log(findRandom())
 
-// function getRandomArbitrary(min, max) {
-//   return Math.floor(Math.random() * (max - min) + min);
-// }
-// console.log(getRandomArbitrary(9,16));
+function getRandomArbitrary(min, max) {
+  return Math.floor(Math.random() * (max - min) + min);
+}
+console.log(getRandomArbitrary(9,16));
 
