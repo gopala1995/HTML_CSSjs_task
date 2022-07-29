@@ -90,6 +90,9 @@ addData(54321);
 
 // ///Convert into Binary
 // console.log(arr.map((a)=>a.toString(2)))
+let b = 14
+let c = b.toString(2)
+console.log(c);
 
 // console.log(arr.filter((a)=> a % 2 !==0));
 
@@ -334,4 +337,4 @@ console.log(findRandom());
 function getRandomArbitrary(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
-console.log(getRandomArbitrary(9, 16));
+// console.log(getRandomArbitrary(9, 16));
