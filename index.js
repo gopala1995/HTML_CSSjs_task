@@ -90,7 +90,7 @@ addData(54321);
 
 // ///Convert into Binary
 // console.log(arr.map((a)=>a.toString(2)))
-let b = 14
+let b = 15
 let c = b.toString(2)
 console.log(c);
 
