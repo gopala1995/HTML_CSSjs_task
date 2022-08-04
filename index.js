@@ -332,9 +332,31 @@ const findRandom = (N) => {
   }
 };
 
-console.log(findRandom());
+// console.log(findRandom());
 
 function getRandomArbitrary(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 // console.log(getRandomArbitrary(9, 16));
+
+
+
+let m = [-1,-2,-3,-5,-4,-5,-6,-4]
+
+  const value = m.forEach((a,b)=>a<b)
+  console.log(value);
+       
+    let max = 0
+    for(var i=0;i<m.length;i++){
+      // console.log(m[i]);
+       if(max < m[i]){
+        max = m[i]
+       }
+    }
+  console.log(max);
+
+
+
+
+
+
