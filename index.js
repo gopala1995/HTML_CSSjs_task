@@ -341,10 +341,13 @@ function getRandomArbitrary(min, max) {
 
 
 
-let m = [-1,-2,-3,-5,-4,-5,-6,-4]
+let m = [1,2,3,5,4,5,6,4,15,9,16,15,]
 
-   m.forEach((a)=> console.log(a))
-  m.filter(())
+  //  m.forEach((el,index)=> console.log(el))
+   const M = m.filter((el,index)=> el>5)
+   console.log(M);
+   const  P = m.map((el,index)=>el*2)
+   console.log(P);
        
     let max = 0
     for(var i=0;i<m.length;i++){
