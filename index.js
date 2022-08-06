@@ -343,8 +343,8 @@ function getRandomArbitrary(min, max) {
 
 let m = [-1,-2,-3,-5,-4,-5,-6,-4]
 
-  const value = m.forEach((a,b)=>a<b)
-  console.log(value);
+   m.forEach((a)=> console.log(a))
+  m.filter(())
        
     let max = 0
     for(var i=0;i<m.length;i++){
@@ -353,7 +353,7 @@ let m = [-1,-2,-3,-5,-4,-5,-6,-4]
         max = m[i]
        }
     }
-  console.log(max);
+  // console.log(max);
 
 
 
