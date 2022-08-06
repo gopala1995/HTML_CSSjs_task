@@ -343,11 +343,14 @@ function getRandomArbitrary(min, max) {
 
 let m = [1,2,3,5,4,5,6,4,15,9,16,15,]
 
-  //  m.forEach((el,index)=> console.log(el))
-   const M = m.filter((el,index)=> el>5)
-   console.log(M);
-   const  P = m.map((el,index)=>el*2)
-   console.log(P);
+   m.forEach((el,index)=> console.log(el+10))
+   const F = m.filter((el,index)=> el>5)
+  //  console.log(F);
+   const  M = m.map((el,index)=>el*2)
+  //  console.log(M);
+  const R = m.reduce((pre,cur)=> pre +cur)
+  // console.log(R);
+
        
     let max = 0
     for(var i=0;i<m.length;i++){
