@@ -361,7 +361,19 @@ let m = [1,2,3,5,4,5,6,4,15,9,16,15,]
     }
   // console.log(max);
 
+  var arraye = ["A", "Good", "Problem"]
 
+  function Odd(el){
+    return el.length 
+  }
+   function ev(el){
+     return el  % 2 == 1
+   }
+   function Sum(el,ac){
+     return el + ac
+   }
+  var stri = arraye.map(Odd).filter(ev).reduce(Sum);
+  console.log(stri)
 
 
 
