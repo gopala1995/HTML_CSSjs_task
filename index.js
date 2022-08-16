@@ -92,7 +92,7 @@ addData(54321);
 // console.log(arr.map((a)=>a.toString(2)))
 let b = 15
 let c = b.toString(2)
-console.log(c);
+// console.log(c);
 
 // console.log(arr.filter((a)=> a % 2 !==0));
 
@@ -323,7 +323,7 @@ const findRandom = (N) => {
   let score = [10, 11, 12, 13, 14, 15];
 
   for (let i = 0; i < score.length; i++) {
-    console.log(score[i]);
+    // console.log(score[i]);
     if (N == score[i]) {
       return score[i];
     } else {
@@ -343,7 +343,7 @@ function getRandomArbitrary(min, max) {
 
 let m = [1,2,3,5,4,5,6,4,15,9,16,15,]
 
-   m.forEach((el,index)=> console.log(el+10))
+  //  m.forEach((el,index)=> console.log(el+10))
    const F = m.filter((el,index)=> el>5)
   //  console.log(F);
    const  M = m.map((el,index)=>el*2)
@@ -373,7 +373,11 @@ let m = [1,2,3,5,4,5,6,4,15,9,16,15,]
      return el + ac
    }
   var stri = arraye.map(Odd).filter(ev).reduce(Sum);
-  console.log(stri)
+  // console.log(stri)
+
+  const z = [1, 2, 3,5,9,0,-10];
+const ma = Math.max(...z);
+console.log(ma);
 
 
 
