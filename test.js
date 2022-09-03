@@ -4,7 +4,7 @@ const output = arr.reduce((acc,curr)=>{
     return acc+=curr
 })
 
-console.log(output);
+// console.log(output);
 
 let a = "hello"
 
