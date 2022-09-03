@@ -1,10 +1,10 @@
-// let arr = [4,5,8]
+let arr = [4,5,8]
 
-// const output = arr.reduce((acc,curr)=>{
-//     return acc+=curr
-// })
+const output = arr.reduce((acc,curr)=>{
+    return acc+=curr
+})
 
-// // console.log(output);
+console.log(output);
 
 let a = "hello"
 
