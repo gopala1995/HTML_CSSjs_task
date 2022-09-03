@@ -373,11 +373,12 @@ let m = [1,2,3,5,4,5,6,4,15,9,16,15,]
      return el + ac
    }
   var stri = arraye.map(Odd).filter(ev).reduce(Sum);
-  // console.log(stri)
+  console.log(stri)
 
-  const z = [1, 2, 3,5,9,0,-10];
-const ma = Math.max(...z);
-console.log(ma);
+//   const z = [1, 2, 3,5,9,0,-10];
+// // const ma = Math.max(...z);
+// const ma = z.reduce((a, b) => Math.max(a, b));
+// console.log(ma);
 
 
 
