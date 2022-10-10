@@ -19,20 +19,46 @@ for(var i=0;i<a.length;i++){
    }
 
 }
-console.log(obj)
+// console.log(obj)
 
-useEffect(()=>{
-  // maounting
-},[])
+// useEffect(()=>{
+//   // maounting
+// },[])
 
-useEffect(()=>{
-   //updating
-},[user])
+// useEffect(()=>{
+//    //updating
+// },[user])
 
-useEffect(()=>{
-    return(()=>{
+// useEffect(()=>{
+//     return(()=>{
 
-    })
-  //unmounting
-},[])
+//     })
+//   //unmounting
+// },[])
+
+
+// console.log(1<2<3);
+// console.log(3>2>1);
+
+
+
+// Print a no of 100 to 1,00,000 series in 
+// ascending order only palindrome no will be printe
+// 11 121 12321
+
+// let ar = ["Gopala", "Gupta"]
+
+// let ar1 = [1,2,3, ...ar , 1,2,3]
+
+// // console.log(ar1);
+
+// var s = {1:"b"}
+// var d = {1:"b"}
+// console.log(s==d);
+
+
+
+
+
+
 
