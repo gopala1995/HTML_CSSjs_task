@@ -1,23 +1,21 @@
-let arr = [4,5,8]
+let arr = [4, 5, 8];
 
-const output = arr.reduce((acc,curr)=>{
-    return acc+=curr
-})
+const output = arr.reduce((acc, curr) => {
+  return (acc += curr);
+});
 
 // console.log(output);
 
-let a = "hello"
+let a = "hello";
 
-let obj = {}
+let obj = {};
 
-for(var i=0;i<a.length;i++){
-
-   if(obj[a[i]]===undefined){
-    obj[a[i]]=1
-   }else{
-    obj[a[i]] ++
-   }
-
+for (var i = 0; i < a.length; i++) {
+  if (obj[a[i]] === undefined) {
+    obj[a[i]] = 1;
+  } else {
+    obj[a[i]]++;
+  }
 }
 // console.log(obj)
 
@@ -36,13 +34,10 @@ for(var i=0;i<a.length;i++){
 //   //unmounting
 // },[])
 
-
 // console.log(1<2<3);
 // console.log(3>2>1);
 
-
-
-// Print a no of 100 to 1,00,000 series in 
+// Print a no of 100 to 1,00,000 series in
 // ascending order only palindrome no will be printe
 // 11 121 12321
 
@@ -56,9 +51,5 @@ for(var i=0;i<a.length;i++){
 // var d = {1:"b"}
 // console.log(s==d);
 
-
-
-
-
-
+let A = [1, 2, 3, 4, 5];
 
