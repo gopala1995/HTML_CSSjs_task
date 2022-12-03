@@ -17,7 +17,7 @@ for (var i = 0; i < a.length; i++) {
     obj[a[i]]++;
   }
 }
-console.log(obj)
+// console.log(obj)
 
 // useEffect(()=>{
 //   // maounting
@@ -103,3 +103,16 @@ var twoSum = function(nums, target) {
 };
 
 // console.log(twoSum(nums, target))
+
+let naam = "Gopala"
+
+var ob = {}
+for (var i=0;i<naam.length;i++){
+   if(ob[naam[i]] === undefined){
+    ob[naam[i]] = 1
+   }else{
+    ob[naam[i]] ++
+   }
+}
+
+console.log(ob)
