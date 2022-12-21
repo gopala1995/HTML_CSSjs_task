@@ -106,13 +106,13 @@ var twoSum = function(nums, target) {
 
 let naam = "Gopala"
 
-var ob = {}
-for (var i=0;i<naam.length;i++){
+let ob = {}
+for(var i=0;i<naam.length;i++){
    if(ob[naam[i]] === undefined){
-    ob[naam[i]] = 1
+     ob[naam[i]] = 1
    }else{
-    ob[naam[i]] ++
+    ob[naam[i]]++
    }
 }
 
-console.log(ob)
+console.log(ob);
