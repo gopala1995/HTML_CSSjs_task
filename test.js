@@ -106,13 +106,16 @@ var twoSum = function(nums, target) {
 
 let naam = "Gopala"
 
-let ob = {}
-for(var i=0;i<naam.length;i++){
-   if(ob[naam[i]] === undefined){
-     ob[naam[i]] = 1
-   }else{
-    ob[naam[i]]++
-   }
-}
+// let ob = {}
+// for(var i=0;i<naam.length;i++){
+//    if(ob[naam[i]] === undefined){
+//      ob[naam[i]] = 1
+//    }else{
+//     ob[naam[i]]++
+//    }
+// }
 
-console.log(ob);
+// console.log(ob);
+
+let d = naam.split("")
+console.log(d)
