@@ -118,4 +118,18 @@ let naam = "Gopala"
 // console.log(ob);
 
 let d = naam.split("")
-console.log(d)
+//console.log(d)
+
+let A = [1, 2, 3, 4, 5,4,6,8,9,2,8,8];
+
+const aouput = A.reduce((acc,curr)=>{
+
+  if(acc[curr]){
+    acc[curr]++
+  }else{
+    acc[curr] =1
+  }
+  return acc
+},{})
+
+console.log(aouput)
