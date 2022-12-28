@@ -132,4 +132,15 @@ const aouput = A.reduce((acc,curr)=>{
   return acc
 },{})
 
-console.log(aouput)
+// console.log(aouput)
+
+  const images = [
+    <img src={"slide1.jpg"} />,
+    <img src={"slid22.jpg"} />,
+    <img src={"slide3.jpg"} />,
+  ];
+
+  let g = images.map((el)=>{
+    console.log(el)
+  })
+  
