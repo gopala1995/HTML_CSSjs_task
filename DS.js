@@ -10,12 +10,9 @@
 let num = 1234
 
 const RoundUp = (num) => {
-   return Math.round(num/50) * 50
+   return Math.round(num/50)*50
 }
 console.log(RoundUp(num))
-
-
-
 
 let matrix1 = [
   [1, 2, 3],
