@@ -53,12 +53,12 @@ const Matrix = (M1, M2) => {
 
 // console.log(Matrix(matrix1, matrix2));
 
-let inp = 28;
+let inp = 125;
 
 const Cube = (N)=>{
   let s = Math.cbrt(N) 
 
-  if(s**3 === N){
+  if(s*s*s === N){
     return "Yes"
   }else{
     return"No"
