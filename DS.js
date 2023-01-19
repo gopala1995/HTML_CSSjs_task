@@ -53,7 +53,8 @@ const Matrix = (M1, M2) => {
 
 // console.log(Matrix(matrix1, matrix2));
 
-let inp = 125;
+// let inp = 125;
+let inp = 216
 
 const Cube = (N)=>{
   let s = Math.cbrt(N) 
@@ -67,17 +68,17 @@ const Cube = (N)=>{
 }
 console.log(Cube(inp))
 
-const CheckCube = (input) => {
-  for (var i = 1; i <= input; i++) {
-    const cube = i * i * i;
+// const CheckCube = (input) => {
+//   for (var i = 1; i <= input; i++) {
+//     const cube = i * i * i;
 
-    if (cube === input) {
-      return "cube";
-    } else if (cube > input) {
-      //if it is not a cube then it must be greater than input
-      return "not cube";
-    }
-  }
-};
+//     if (cube === input) {
+//       return "cube";
+//     } else if (cube > input) {
+//       //if it is not a cube then it must be greater than input
+//       return "not cube";
+//     }
+//   }
+// };
 
 // console.log(CheckCube(inp));
