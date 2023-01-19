@@ -53,7 +53,19 @@ const Matrix = (M1, M2) => {
 
 // console.log(Matrix(matrix1, matrix2));
 
-let inp = 27;
+let inp = 28;
+
+const Cube = (N)=>{
+  let s = Math.cbrt(N) 
+
+  if(s**3 === N){
+    return "Yes"
+  }else{
+    return"No"
+  }
+
+}
+console.log(Cube(inp))
 
 const CheckCube = (input) => {
   for (var i = 1; i <= input; i++) {
