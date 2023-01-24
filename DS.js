@@ -82,3 +82,5 @@ console.log(Cube(inp))
 // };
 
 // console.log(CheckCube(inp));
+
+console.log(3**3);
