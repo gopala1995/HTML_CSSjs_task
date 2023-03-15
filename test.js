@@ -106,7 +106,7 @@
 // let d = naam.split("")
 // // console.log(d)
 
-// let A = [1, 2, 3, 4, 5,4,6,8,9,2,8,8];
+let A = [8,1, 2, 3,9, 4, 5,4,6,8,9,2,8,8];
 
 // const aouput = A.reduce((acc,curr)=>{
 
@@ -118,7 +118,19 @@
 //   return acc
 // },{})
 
-// // console.log(aouput)
+// console.log(aouput)
+  let obj = {}
+for(var i=0;i<A.length;i++){
+    if(obj[A[i]] === undefined){
+        obj[A[i]] = 1
+    }else{
+        obj[A[i]] ++
+    }
+}
+// for(var key in obj){
+ 
+// }
+console.log(obj);
 
 // const bj = {name: "John", age: 30, city: "New York"};
 // console.log(bj)
