@@ -7,12 +7,12 @@
 //3. Write a program to determine whether two matrices are equal
 //=> 4. Write a program to check if a given number is perfect cube
 
-let num = 1234;
+let num = 1277;
 
 const RoundUp = (num) => {
   return Math.round(num / 50) * 50;
 };
-// console.log(RoundUp(num));
+console.log(RoundUp(num));
 
 let matrix1 = [
   [1, 2, 3],
@@ -58,7 +58,7 @@ let inp = 216
 
 const Cube = (N)=>{
   let s = Math.cbrt(N) 
-
+  
   if(s*s*s === N){
     return "Yes"
   }else{
@@ -83,4 +83,4 @@ console.log(Cube(inp))
 
 // console.log(CheckCube(inp));
 
-console.log(3**3);
+// console.log(3**3);

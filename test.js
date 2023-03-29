@@ -90,23 +90,23 @@
 
 
 
-// let naam = "Gopala"
+let naam = "Gopala"
 
-// // let ob = {}
-// // for(var i=0;i<naam.length;i++){
-// //    if(ob[naam[i]] === undefined){
-// //      ob[naam[i]] = 1
-// //    }else{
-// //     ob[naam[i]]++
-// //    }
-// // }
+let ob = {}
+for(var i=0;i<naam.length;i++){
+   if(ob[naam[i]] === undefined){
+     ob[naam[i]] = 1
+   }else{
+    ob[naam[i]]++
+   }
+}
 
-// // console.log(ob);
+console.log(ob);
 
 // let d = naam.split("")
 // // console.log(d)
 
-let A = [8,1, 2, 3,9, 4, 5,4,6,8,9,2,8,8];
+// let A = [8,1, 2, 3,9, 4, 5,4,6,8,9,2,8,8];
 
 // const aouput = A.reduce((acc,curr)=>{
 
@@ -119,18 +119,18 @@ let A = [8,1, 2, 3,9, 4, 5,4,6,8,9,2,8,8];
 // },{})
 
 // console.log(aouput)
-  let obj = {}
-for(var i=0;i<A.length;i++){
-    if(obj[A[i]] === undefined){
-        obj[A[i]] = 1
-    }else{
-        obj[A[i]] ++
-    }
-}
+//   let obj = {}
+// for(var i=0;i<A.length;i++){
+//     if(obj[A[i]] === undefined){
+//         obj[A[i]] = 1
+//     }else{
+//         obj[A[i]] ++
+//     }
+// }
 // for(var key in obj){
  
 // }
-console.log(obj);
+// console.log(obj);
 
 // const bj = {name: "John", age: 30, city: "New York"};
 // console.log(bj)
@@ -141,7 +141,3 @@ console.log(obj);
 
 
 
-// 1.Write a spell check program which checks the complete sentence and check for the letter 'a' and if the next word is a vowel replace it with "an"
-// Ex: Input: I ate a apple today	Output: I ate an apple today
-// 2.Round up and round down for a given number to the nearest 50.
-// Ex: Input: 1234		Output: 1250
