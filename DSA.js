@@ -12,4 +12,9 @@ var twoSum = function (nums, target) {
   }
 };
 
-console.log(twoSum(nums, target));
+// console.log(twoSum(nums, target));
+
+const user = {name:'Gopala', age:23}
+const admin = {admin:true,...user}
+
+console.log(admin);

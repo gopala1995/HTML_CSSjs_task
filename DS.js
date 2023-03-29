@@ -7,7 +7,7 @@
 //3. Write a program to determine whether two matrices are equal
 //=> 4. Write a program to check if a given number is perfect cube
 
-let num = 1277;
+let num = 1257;
 
 const RoundUp = (num) => {
   return Math.round(num / 50) * 50;
