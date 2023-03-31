@@ -16,5 +16,7 @@ var twoSum = function (nums, target) {
 
 const user = {name:'Gopala', age:23}
 const admin = {admin:true,...user}
+const user2 = [1,2,3,4,5], user3 = [6,7,8,9,10]
 
 console.log(admin);
+console.log(...user2,...user3);
