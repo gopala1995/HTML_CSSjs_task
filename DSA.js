@@ -22,6 +22,19 @@ const user2 = [1, 2, 3, 4, 5],
 // console.log(admin);
 // console.log(...user2,...user3);
 
+const arr = [2,5,6,4,7,8,1,2,45,3,6,36,25,14,95]
+
+for(var i=0;i<arr.length;i++){
+  for(var j=0;j<arr.length;j++){
+     if(arr[j]>arr[j+1]){
+      let temp = arr[j]
+       arr[j]=arr[j+1]
+       arr[j+1] = temp
+     }
+  }
+}
+// console.log(arr);
+
 
 const DayofWeek = (d,m,y) => {
   let days = [
