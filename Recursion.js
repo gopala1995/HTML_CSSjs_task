@@ -19,6 +19,38 @@ const AddApple = (x) =>{
 
 const buyMore = (x) =>{
     AddApple(x-10)
-    console.log(x);
+    // console.log(x);
 }
 AddApple(money)
+
+
+
+
+let arr = [2,0,"3",4,0,0]
+let outzro = []
+let outnum = []
+
+for (var i=0;i<arr.length;i++){
+     if(arr[i]==0){
+       outzro.push(arr[i])
+     } else if (arr[i] !=0){
+        outnum.push(arr[i])
+     }
+}
+
+//  console.log(outnum.concat(outzro));
+
+let arr1 = [2,3,2,8,5,3]
+// arr:[2,3,2,8,5,3] output: 2
+// 	arr: [2,4,1,1,4,7] output: 1
+// 	arr: [2,3,4] output: undefined
+let out1 = []
+for(var i=0;i<arr1.length;i++){
+    // for(var j=1;j<arr1.length;j++){
+     if(arr1[i] == arr1[i+1]){  
+        out1.push(arr1[i])
+    }
+    
+//   } 
+}
+console.log(out1)
