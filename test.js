@@ -101,22 +101,22 @@ for(var i=0;i<naam.length;i++){
    }
 }
 
-console.log(ob);
+// console.log(ob);
 
 // let d = naam.split("")
 // // console.log(d)
 
-// let A = [8,1, 2, 3,9, 4, 5,4,6,8,9,2,8,8];
+let A = [8,1, 2, 3,9, 4, 5,4,6,8,9,2,8,8];
 
-// const aouput = A.reduce((acc,curr)=>{
+const aouput = A.reduce((acc,curr)=>{
 
-//   if(acc[curr]){
-//     acc[curr]++
-//   }else{
-//     acc[curr] =1
-//   }
-//   return acc
-// },{})
+  if(acc[curr]){
+    acc[curr]++
+  }else{
+    acc[curr] =1
+  }
+  return acc
+},{})
 
 // console.log(aouput)
 //   let obj = {}
@@ -136,6 +136,15 @@ console.log(ob);
 // console.log(bj)
 // const myJSON = JSON.stringify(bj);
 // console.log(myJSON)
+
+
+console.table(aouput);
+
+
+
+
+
+
  
   
 
