@@ -138,10 +138,21 @@ const aouput = A.reduce((acc,curr)=>{
 // console.log(myJSON)
 
 
-console.table(aouput);
+// console.table(aouput);
 
 
+let art = ['a','b','c','c','a','d','a']
 
+var obj = {}
+
+for(var i=0;i<art.length;i++){
+  if(!obj[art[i]]) 
+   obj[art[i]] = 1
+   else
+   obj[art[i]]++
+}
+
+console.log(obj);
 
 
 
